@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+
+body{
+	font-size: 18px;
+	font-family: "News Cycle"
+}
+#calculator{
+	margin: auto;
+	width: 400px;
+	background: grey;
+	box-shadow: 0 0 25px Black;
+	border-radius: 10px;
+}
+
+#keys{
+	overflow: auto;
+}
+#keys button{
+	width: 25%;
+	float: left;
+	border: none;
+	cursor: pointer;
+	padding: 2em;
+	background: none;
+}
+header{
+	padding: 1.5em;
+	text-align: right;
+	background: Indigo;
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#keys button:hover{
+	background: LightGrey;
+}
+
+#keys button:focus{
+	outline: none;
+}
+
+#key button:active{
+	box-shadow: 0 0 5px LightGrey;
+}
+header #detail {
+	font-size: .8em
+}
+header #result span{
+	float: left;
+}
